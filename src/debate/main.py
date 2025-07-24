@@ -9,8 +9,6 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
-print("************************************************")
-print("Loaded key:", os.getenv("GROQ_API_KEY"))
 
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 
